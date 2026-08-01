@@ -10,8 +10,8 @@ const nextConfig: NextConfig = {
   },
   ...(isGitHubPages
     ? {
-        basePath: "/nd",
-        assetPrefix: "/nd/",
+        basePath: "/sansu-souzoukan-ready-for-github-pages",
+        assetPrefix: "/sansu-souzoukan-ready-for-github-pages/",
       }
     : {}),
 };
