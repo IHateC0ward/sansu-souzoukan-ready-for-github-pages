@@ -51,7 +51,7 @@ export default function Home() {
 
   return <main>
     <header className="header">
-      <a className="brand" href="#top"><span className="brand-mark">< img src="sansu-souzoukan-ready-for-github-pages/photo/logo.jpg" alt="logo" width={24} height={24} /></span><span><strong>算数創造館</strong><small>SANSU SOZOKAN</small></span></a>
+      <a className="brand" href="#top"><span className="brand-mark">< img src="/sansu-souzoukan-ready-for-github-pages/photo/logo.jpg" alt="logo" width={24} height={24} /></span><span><strong>算数創造館</strong><small>SANSU SOZOKAN</small></span></a>
       <button className="menu-button" onClick={() => setMenu(!menu)} aria-label="メニュー">{menu ? "×" : "☰"}</button>
       <nav className={menu ? "nav open" : "nav"}>
         <a href="#philosophy">教育理念</a><a href="#curriculum">コース紹介</a><a href="#lectures">算数名家講堂</a><a href="#stories">合格体験記</a><a href="#assessment">能力診断</a>
